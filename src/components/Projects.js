@@ -1,15 +1,19 @@
 import graphVis from "../assets/projects/graph-vis.png";
 import codeEditor from "../assets/projects/code-editor.png";
-
+ 
 export default function Projects() {
   const projects = [
     {
       id: 1,
       src: graphVis,
+      github: "https://github.com/RajatRathore123-github/Graph-Visualizer",
+      demo: "https://rajatrathore123-github.github.io/Graph-Visualizer/"
     },
     {
       id: 2,
       src: codeEditor,
+      github: "https://github.com/RajatRathore123-github/Editor-Studio",
+      demo: "https://editor-studio-server.onrender.com"
     },
   ];
 
@@ -27,21 +31,21 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src }) => {
+          {projects.map(({ id, src, github, demo }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={src}
-                  alt=""
+                  alt="Project"
                   className="rounded-md duration-200 hover:scale-105"
                 />
 
                 <div className="flex items-center justify-center">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
+                    <a href={demo} target="_blank">Demo</a>
                   </button>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
+                    <a href={github} target="_blank">Code</a>
                   </button>
                 </div>
               </div>

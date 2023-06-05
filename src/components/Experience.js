@@ -34,7 +34,16 @@ export default function Experience(){
                     <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
                     <img src={Gssoc} alt="" className="w-50 mx-auto"/>
                     <p className="mt-4">
-                        Tempor sunt cillum nisi aute dolore deserunt consequat laboris. Sint excepteur dolor mollit amet nostrud eiusmod ut sit nisi esse sit in magna. Ex qui veniam cillum ullamco magna id voluptate velit velit aute in non qui mollit. Dolore adipisicing tempor velit consequat consectetur.
+                    Contributing to multiple open source projects in different technologies.
+                    </p>
+                    <p className="mt-4">
+                    Making significant contributions to the projects being working on..
+                    </p>
+                    <p className="mt-4">
+                    Received positive feedback from other developers for my contributions
+                    </p>
+                    <p className="mt-4">
+                    Contributions can be seen from my github.
                     </p>
                     </div>
                     
