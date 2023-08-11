@@ -1,6 +1,6 @@
 import rajatImage from "../assets/images/RajatRathore.png";
 import {AiOutlineArrowRight} from "react-icons/ai"
-import Rezume from "../assets/resume/Rezume.pdf"
+import Resume from "../assets/resume/Resume.pdf"
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           I am also a highly motivated and results-oriented individual who is always looking for new challenges.
           If you are looking for a programmer who can think outside the box and come up with creative solutions to your problems, then I am the person for you. I am confident that I can make a significant contribution to your team and help you achieve your goals
           </p>
-          <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"><a href={Rezume} download>Resume</a>
+          <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"><a href={Resume} download>Resume</a>
           <span className="group-hover:rotate-90 duration-300 ml-1">
           <AiOutlineArrowRight/>
             </span>
