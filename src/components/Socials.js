@@ -2,7 +2,7 @@ import {
   AiFillMail,
   AiOutlineGithub,
   AiFillLinkedin,
-  AiFillTwitterCircle,
+  // AiFillTwitterCircle,
 } from "react-icons/ai";
 
 export default function Socials() {
@@ -35,16 +35,16 @@ export default function Socials() {
       ),
       href: "mailto:rajat12350iam@gmail.com",
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Twitter <AiFillTwitterCircle size={30} />
-        </>
-      ),
-      href: "http://twitter.com/rajat12350iam",
-      style: "rounded-br-md",
-    },
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       Twitter <AiFillTwitterCircle size={30} />
+    //     </>
+    //   ),
+    //   href: "http://twitter.com/rajat12350iam",
+    //   style: "rounded-br-md",
+    // },
   ];
   return (
     <div className="hidden md:flex flex-col top-[35%] left-0 fixed">
